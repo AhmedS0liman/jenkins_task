@@ -30,7 +30,6 @@
   <build>
 
     <finalName>my-maven-docker-project</finalName>
-    <!-- Test my webhook-->
   
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -53,6 +52,8 @@
           <version>2.22.1</version>
         </plugin>
         <plugin>
+              <!-- Test my webhook-->
+
               <!-- Build an executable JAR -->
           <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
