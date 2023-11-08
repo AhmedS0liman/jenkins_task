@@ -52,7 +52,6 @@
           <version>2.22.1</version>
         </plugin>
         <plugin>
-              <!-- Test my webhook-->
 
               <!-- Build an executable JAR -->
           <groupId>org.apache.maven.plugins</groupId>
@@ -67,7 +66,8 @@
                     </manifest>
                   </archive>
                 </configuration>
-                          
+                               <!-- Test my webhook-->
+         
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
